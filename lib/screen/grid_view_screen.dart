@@ -41,7 +41,6 @@ class _GridViewScreenState extends State<GridViewScreen> {
               onPressed: () {
                 setState(() {
                   if (isClicked[i]) {
-                    // If the button is clicked again, remove it from the lists
                     letters.removeAt(i);
                     isClicked.removeAt(i);
                   } else {
